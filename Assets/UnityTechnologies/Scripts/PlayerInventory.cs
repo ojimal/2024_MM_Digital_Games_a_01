@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class Collect : MonoBehaviour
 {
-public int NumberOfDiamonds { get; private set; }
-public void DiamonCollected()
+public int NumberOfLemons { get; private set; }
+public UnityEvent<Collect> OnLemonCollected;
+public void LemonCollected()
 {
-    NumberOfDiamonds++;
+    NumberOfLemons++;
+    OnLemonCollected.Invoke(this);
 }
 }

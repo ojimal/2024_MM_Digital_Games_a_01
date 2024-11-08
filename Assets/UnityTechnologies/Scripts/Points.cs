@@ -9,7 +9,7 @@ public class Points : MonoBehaviour
         Collect playerInventory = other.GetComponent<Collect>();
         if(playerInventory != null)
         {
-            playerInventory.DiamonCollected();
+            playerInventory.LemonCollected();
             gameObject.SetActive(false);
         }
     }
