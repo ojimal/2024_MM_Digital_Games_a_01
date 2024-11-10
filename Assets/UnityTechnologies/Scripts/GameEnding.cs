@@ -14,23 +14,17 @@ public class GameEnding : MonoBehaviour
     public AudioSource caughtAudio;
     public AudioSource backgroundMusic;
 
-
     bool m_IsPlayerAtExit;
     bool m_IsPlayerCaught;
     float m_Timer;
     bool m_HasAudioPlayed;
-    bool m_IsTimerEnded; // New flag to check if timer reached zero
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == player)
         {
             m_IsPlayerAtExit = true;
         }
-    }
-    // New method to trigger end of game when timer reaches zero
-    public void TriggerEndGame()
-    {
-        m_IsTimerEnded = true;
     }
 
     public void CaughtPlayer()
@@ -48,10 +42,7 @@ public class GameEnding : MonoBehaviour
         {
             EndLevel(caughtBackgroundImageCanvasGroup, true, caughtAudio, backgroundMusic);
         }
-        else if (m_IsTimerEnded) // Check if timer has ended
-        {
-            EndLevel(exitBackgroundImageCanvasGroup, false, exitAudio, backgroundMusic);
-        }
+
     }
 
     void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart, AudioSource audioSource, AudioSource backgroundMusic)
