@@ -275,6 +275,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1765646661355477714, guid: 304134980b0a54c00b4b0fce55498d00,
+        type: 3}
+      propertyPath: turnSpeed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6332386476772858911, guid: 304134980b0a54c00b4b0fce55498d00,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1180,6 +1185,11 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 595599942}
+    - target: {fileID: 5860746138260161897, guid: adb05de4876e745caaadf610cd11a9d9,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6755552602514241432, guid: adb05de4876e745caaadf610cd11a9d9,
         type: 3}
       propertyPath: m_Name
@@ -4261,6 +4271,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420694646246218931, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 2684741272560899686, guid: 549c69af39b84624b8a053537c407def,
         type: 3}
@@ -8850,6 +8865,7 @@ PrefabInstance:
     - {fileID: 7842489529042514646, guid: 549c69af39b84624b8a053537c407def, type: 3}
     - {fileID: 3673335226863779675, guid: 549c69af39b84624b8a053537c407def, type: 3}
     - {fileID: 3673335226466517760, guid: 549c69af39b84624b8a053537c407def, type: 3}
+    - {fileID: 3673335226779178774, guid: 549c69af39b84624b8a053537c407def, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3674741054415495555, guid: 549c69af39b84624b8a053537c407def,
         type: 3}
@@ -8901,13 +8917,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b9946b6dcdede4f8fa24364890d4578b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.91
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 52
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -9798,13 +9814,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 205287722f2b6b64583b86d65fdeeb11, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.102
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 46
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -10172,6 +10188,11 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[3]
       value: 
       objectReference: {fileID: 1468289049}
+    - target: {fileID: 5860746138260161897, guid: adb05de4876e745caaadf610cd11a9d9,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6755552602514241432, guid: adb05de4876e745caaadf610cd11a9d9,
         type: 3}
       propertyPath: m_Name
@@ -10690,6 +10711,11 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 601036929}
+    - target: {fileID: 5860746138260161897, guid: adb05de4876e745caaadf610cd11a9d9,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6755552602514241432, guid: adb05de4876e745caaadf610cd11a9d9,
         type: 3}
       propertyPath: m_Name
@@ -11079,6 +11105,11 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 90623153}
+    - target: {fileID: 5860746138260161897, guid: adb05de4876e745caaadf610cd11a9d9,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6755552602514241432, guid: adb05de4876e745caaadf610cd11a9d9,
         type: 3}
       propertyPath: m_Name
