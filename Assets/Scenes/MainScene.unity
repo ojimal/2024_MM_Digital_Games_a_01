@@ -283,7 +283,7 @@ PrefabInstance:
     - target: {fileID: 6332386476772858911, guid: 304134980b0a54c00b4b0fce55498d00,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.361
+      value: -10.17
       objectReference: {fileID: 0}
     - target: {fileID: 6332386476772858911, guid: 304134980b0a54c00b4b0fce55498d00,
         type: 3}
@@ -293,7 +293,7 @@ PrefabInstance:
     - target: {fileID: 6332386476772858911, guid: 304134980b0a54c00b4b0fce55498d00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.2
+      value: -5.09
       objectReference: {fileID: 0}
     - target: {fileID: 6332386476772858911, guid: 304134980b0a54c00b4b0fce55498d00,
         type: 3}
@@ -471,7 +471,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
-  m_LocalPosition: {x: -10.361, y: 6.8944006, z: -8.985088}
+  m_LocalPosition: {x: -10.17, y: 6.8944016, z: -10.87509}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1460,7 +1460,7 @@ Transform:
   m_GameObject: {fileID: 751718375}
   serializedVersion: 2
   m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
-  m_LocalPosition: {x: -10.361, y: 6.8944006, z: -8.985088}
+  m_LocalPosition: {x: -10.17, y: 6.8944016, z: -10.87509}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4667,6 +4667,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670426498575309111, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670426498575309111, guid: 549c69af39b84624b8a053537c407def,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 3673070965209554635, guid: 549c69af39b84624b8a053537c407def,
         type: 3}
@@ -9469,6 +9479,9 @@ MonoBehaviour:
   caughtBackgroundImageCanvasGroup: {fileID: 75256685}
   caughtAudio: {fileID: 1465024183}
   backgroundMusic: {fileID: 1160522748}
+  lemonText: {fileID: 1811174864}
+  dialogue: {fileID: 0}
+  requiredCoins: 10
 --- !u!65 &1446615142
 BoxCollider:
   m_ObjectHideFlags: 0
