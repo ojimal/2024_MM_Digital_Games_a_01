@@ -7,13 +7,12 @@ public class SeeThrough : MonoBehaviour
     private List<Transform> currentObstructions = new List<Transform>();
     private List<MeshRenderer> obstructionRenderers = new List<MeshRenderer>();
 
-    // Set maxDistance slightly larger than the virtual camera's fixed distance (6.36) to cover obstructions
     private float maxDistance = 10.0f;
-    private LayerMask obstructionMask; // Set this in the Inspector to only include layers for obstacles
+    private LayerMask obstructionMask; 
 
     void Start()
     {
-        obstructionMask = LayerMask.GetMask("Obstacles"); // Set layer to obstacles only
+        obstructionMask = LayerMask.GetMask("Obstacles"); 
     }
 
     void Update()
@@ -25,7 +24,6 @@ public class SeeThrough : MonoBehaviour
     {
         RaycastHit hit;
 
-        // Clear previous obstructions
         ResetObstructions();
 
         // Cast a ray from the camera to the player to check for obstructions
