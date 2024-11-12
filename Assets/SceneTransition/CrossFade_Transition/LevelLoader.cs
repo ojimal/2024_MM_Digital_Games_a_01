@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,26 +6,22 @@ public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime = 1f;
-    // Update is called once per frame
-    void Update()
+
+    // Public method to trigger the transition and load the main game scene
+    public void LoadMainGame()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            LoadNextLevel();
-        }
-    }
-    public void LoadNextLevel()
-    {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadLevel(1)); // Load scene index 1 (Main Game)
     }
 
     IEnumerator LoadLevel(int levelIndex)
     {
-        //play anymation
+        // Play transition animation
         transition.SetTrigger("Start");
-        //wait
+
+        // Wait for the transition duration
         yield return new WaitForSeconds(transitionTime);
-        //load scene
+
+        // Load the specified scene
         SceneManager.LoadScene(levelIndex);
     }
 }
